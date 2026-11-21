@@ -11,7 +11,7 @@
 
 ## 简介 / Overview
 
-本工程是第三代无刷电机驱动硬件，采用圆形小板设计，适合直接安装在电机尾部。主控为雅特力 **AT32M412KBT7**（Cortex-M4F，180 MHz），栅极驱动使用 TI **DRV8300**，功率级为 6 颗 60 V N 沟道 MOSFET，配合双 20 mΩ 采样电阻实现两相电流检测。
+本工程是第三代无刷电机驱动硬件，采用圆形小板设计，适合直接安装在PM\GB4310电机尾部。主控为雅特力 **AT32M412KBT7**（Cortex-M4F，180 MHz），栅极驱动使用 TI **DRV8300**，功率级为 6 颗 60 V N 沟道 MOSFET，配合双 20 mΩ 采样电阻实现两相电流检测。
 
 This is the third-generation BLDC motor driver hardware. The circular PCB is designed to be mounted directly on the back of a motor. The MCU is an Artery **AT32M412KBT7** (Cortex-M4F, 180 MHz), the gate driver is TI **DRV8300**, and the power stage uses six 60 V N-channel MOSFETs with two 20 mΩ shunts for two-phase current sensing.
 
@@ -118,11 +118,6 @@ XT30PW(2+2) ──┬── 反接保护(Q8) ── VBAT0 ──┬── 三相
 - [x] 电源链路（24 V → 5 V → 3.3 V → 15 V）完整
 - [x] 网表导出与实际图纸一致（0 处差异）
 
-## 已知事项 / Known Notes
-
-- U11-1 / U3-1（RSA240AXQ）悬空，需确认该脚是否为 NC
-- 栅极未加 G-S 下拉电阻，建议后续版本补充 10 kΩ
-- U2-5 / U2-10 / U2-30（PA0 / PA1 / PB7）未使用，可留作后续扩展
 
 ---
 
