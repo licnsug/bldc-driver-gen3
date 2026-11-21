@@ -1,0 +1,12 @@
+# EasyEDA Pro 备份
+*_backup*
+*.bak
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 临时文件
+*.tmp
+*.log
