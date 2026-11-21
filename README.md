@@ -31,7 +31,7 @@ This is the third-generation BLDC motor driver hardware. The circular PCB is des
 | **栅极供电 / Gate supply** | MD7680 15 V LDO → GVDD |
 | **电流采样 / Current sense** | 2 × 20 mΩ 分流电阻（R2/R3）+ RSA240AXQ 运放 |
 | **PWM / PWM** | TMR1 CH1~CH3 + CH1C~CH3C 硬件互补，带死区 |
-| **编码器 / Encoder** | SPI 磁编码器接口（CS/SCLK/MISO/MOSI + MGH/MGL） |
+| **编码器 / Encoder** | SPI 磁编码器接口（KTH7823-X-N-QN16） |
 | **通信 / Comm** | CAN（SIT1051ATQ + 120 Ω 终端）、USB-C + CH340E 串口 |
 | **调试 / Debug** | SWD（CN2，4 pin） |
 | **保护 / Protection** | 反接保护 MOSFET、TVS、过压保护、自恢复保险丝 |
