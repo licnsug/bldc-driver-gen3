@@ -136,3 +136,10 @@ This project is released under the **MIT License**, see [LICENSE](LICENSE).
 
 > 硬件设计文件（原理图 / PCB）可自由用于学习、修改与二次开发；如需商用请自行评估风险。
 > Hardware design files may be freely used, modified and redistributed for study and further development.
+
+---
+
+## 更新记录 / Changelog
+
+- **2026-11-21** 修正器件型号（WSD70N06GDN33 / TPS54360 / TLV70233）与输入电压范围（12–27 V），补充立创编号；移除「已知事项」章节
+- **2026-11-21** 初始开源：原理图 + PCB 工程、3D 渲染图、网表
