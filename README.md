@@ -13,7 +13,7 @@
 
 本工程是第三代无刷电机驱动硬件，采用圆形小板设计，适合直接安装在PM\GB4310电机尾部。主控为雅特力 **AT32M412KBT7**（Cortex-M4F，180 MHz），栅极驱动使用 TI **DRV8300**，功率级为 6 颗 60 V N 沟道 MOSFET，配合双 20 mΩ 采样电阻实现两相电流检测。
 
-This is the third-generation BLDC motor driver hardware. The circular PCB is designed to be mounted directly on the back of a motor. The MCU is an Artery **AT32M412KBT7** (Cortex-M4F, 180 MHz), the gate driver is TI **DRV8300**, and the power stage uses six 60 V N-channel MOSFETs with two 20 mΩ shunts for two-phase current sensing.
+This project is the third-generation brushless motor drive hardware. It is designed with a circular board and is suitable for direct installation at the tail end of PM/GB4310 motors. The MCU is an Artery **AT32M412KBT7** (Cortex-M4F, 180 MHz), the gate driver is TI **DRV8300**, and the power stage uses six 60 V N-channel MOSFETs with two 20 mΩ shunts for two-phase current sensing.
 
 **网表规模 / Netlist:** 97 components, 83 nets.
 
